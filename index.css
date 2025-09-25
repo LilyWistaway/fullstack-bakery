@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: burlywood;
+}
+nav {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 75vw;
+  height: max-content;
+}
+header {
+  display: flex;
+  font-weight: bold;
+  font-size: x-large;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+main {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 0 auto;
+  padding: 1rem;
+  flex: 1;
+}
+aside {
+  background-color: aqua;
+  padding: 1rem;
+  margin: auto;
+  height: 30rem;
+  font-weight: bold;
+}
+nav a {
+  border: 2px solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 1%;
+  gap: 1rem;
+  background-color: antiquewhite;
+  font-weight: bold;
+  font-size: large;
+  align-content: space-between;
+}
+aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 0;
+  padding-left: 0.3em;
+  line-height: 2;
+  list-style: none;
+  list-style-position: inside;
+}
+aside li {
+  background-color: aliceblue;
+  padding: 0.25em 0.4rem;
+  border-radius: 0.25rem;
+  border: 0.1rem solid;
+  text-align: center;
+}
+article {
+  margin: 1%;
+  background-color: bisque;
+  padding-top: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 32rem;
+}
+.testimonial {
+  background-color: rgb(168, 83, 248);
+  font-weight: bold;
+  justify-content: center;
+}
+.testimonial blockquote {
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+.testimonial figcaption {
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+footer {
+  padding-left: 15rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: mediumslateblue;
+  font-weight: bold;
+  align-items: flex-end;
+  width: 100%;
+}
